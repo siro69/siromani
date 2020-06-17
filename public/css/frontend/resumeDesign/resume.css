@@ -1,0 +1,79 @@
+body{
+	 font-family: 'Roboto', sans-serif;
+}
+.top-profile{margin: 0% 0% 3% 7%;}
+.resume-div{    box-shadow: 0 2px 25px -8px rgba(32,33,36,1.0);     padding: 50px; margin-top:4%; margin-bottom: 4%;} 
+.profile-header h1{margin-bottom: 0;  padding-top: 25px; margin: 0; color: #83838b; font-size: 25px;}
+.profile-header{line-height: 1.6; padding: 0;}
+.profile-header p{margin-bottom: 0; line-height: 1.7; font-size: 18px; color:#83838b;}
+#resume .profile-image img{border-radius: 50%; width:150px; height:150px; float:right; padding:3px; border:2px solid #c7c2c2;}
+
+b{font-weight: 600;}
+.row-margin{margin: 0 3% 1% 2%;}
+
+/*      Profile Objective       */
+
+.resume-div .title{color:#f86112; font-family: 'Overpass', sans-serif; font-size: 18px;  margin: 2% 4% 0% 4%;}
+.resume-div p{color:#3f3d3e; font-size: 16px; line-height: 1.5;}
+
+.date-months{float: right;}
+.date{color:#83838b; font-size: 15px; }
+.date i,.right-line i{font-size: 16px;  margin-right: 5px; color:#a4a4a4;}
+
+.right-line {
+  padding: 0 0 0 25px;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #ec7c03, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+ .seperator
+{
+    height: 2px;
+    margin: 15px;
+    background-image: radial-gradient(#CCC, #FFF), radial-gradient(#CCC, #FFF);
+    background-position: 0, 100%, 0, 100%;
+}
+.right-line ul{margin-bottom: 20px;}
+.right-line li{color:#3f3d3e; font-size: 16px; line-height: 1.5; list-style-type: none;}
+.right-line li i{margin-right: 5px;}
+.right-line .designation {font-weight: 500;}
+.right-line .role{    padding-left: 15px;}
+
+
+.job-preference ul{padding-right: 25px; }
+.skills ul li{display: inline-block; padding-right: 10px;}
+
+
+
+
+
+ /* Responsive */
+
+@media only screen and (min-width:992px) {
+  .md-text-right {
+    text-align: right !important; }
+}
+@media (max-width: 767px) { 
+.row-margin {margin: 0 0% 1% 0%; } 
+.resume-div {padding: 30px; }
+.job-preference ul {padding-right: 0;}
+.right-line li {font-size: 15px; line-height: 1.7; }
+}
+@media (max-width: 375px) { 
+#resume .profile-image img{width:125px; height:125px; }
+.resume-div {padding: 15px; }
+.resume-div p,.right-line li { font-size: 14px; }
+}
+@media (max-width: 360px) { 
+.profile-header h1{font-size: 20px; color: #83838b; padding-top: 10px; margin-left: 0;}
+.top-profile {margin: 0% 0% 3% 4%; }
+}
+@media (max-width: 360px) {
+ }

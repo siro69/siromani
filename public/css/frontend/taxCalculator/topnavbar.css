@@ -1,0 +1,55 @@
+#top-navbar {
+    background:#EC7C03; 
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    padding:5px 0 3px;
+    border-bottom:2px solid #E5E6E8;
+}
+#top-navbar ul{margin-bottom:0;}
+#top-navbar ul li{list-style-type: none; display:inline-block; margin-right: 20px;}
+#top-navbar ul li:hover{opacity:0.8;}
+#top-navbar ul li a{color:#fff; font-size:14px;}
+#top-navbar ul li a:hover{text-decoration:none;}
+#top-navbar ul li img{height:30px;  margin-top: -7px;}
+
+#top-navbar ul li i{ margin-right:5px; font-size:15px;}
+
+#top-navbar .left-icons i{font-size:18px;}
+
+
+/*Responsive*/
+@media(max-width: 1200px) {
+    #top-navbar .feedback {display:none;}
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+    #top-navbar .download-app, #top-navbar .services, #top-navbar .feedback {display:none;}
+}
+@media (min-width: 980px) and (max-width: 1023px) {
+    #top-navbar .whatsapp, #top-navbar .faq{display:none;}
+}
+@media (max-width:991px)
+{
+    #top-navbar .skype, #top-navbar .download-app, #top-navbar .support ,#top-navbar .feedback {display:none;} 
+    #top-navbar ul{padding-left:0; } 
+}
+@media (max-width: 1024px) 
+{
+    #top-navbar .download-app ,#top-navbar .feedback {display:none;} 
+}
+@media (max-width: 767px) 
+{
+    #top-navbar ul li {margin-right:0;}
+    #top-navbar .skype ,#top-navbar .whatsapp, #top-navbar .num2, #top-navbar .download-app, #top-navbar .support ,#top-navbar .feedback ,#top-navbar .faq {display:none;} 
+}
+@media (max-width: 320px)
+{
+    #top-navbar .viber {display:none;} 
+} 
+@media (max-width: 304px) 
+{
+    #top-navbar .left-side, #top-navbar .middle-side, #top-navbar .right-side{padding: 0;}
+} 
+@media (max-width: 224px) 
+{
+   #top-navbar .right-side{display:none;}
+} 

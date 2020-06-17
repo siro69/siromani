@@ -1,0 +1,759 @@
+/* Navbar css */
+#blog-tab {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    background: #F5F5F4;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#blog-tab a:hover {
+    text-decoration: none;
+}
+
+#blog-tab .nav-item a i {
+    margin-right: 5px;
+}
+
+#blog-tab .nav-tabs li {
+    font-size: 14px;
+}
+
+#blog-tab .nav-tabs li a {
+    color: #666;
+    border-bottom: 3px solid #fff;
+}
+
+#blog-tab .nav-tabs li a .active, #blog-tab .nav-tabs li a:active, #blog-tab .nav-tabs li a:focus, #blog-tab .nav-tabs li a:hover {
+    border-bottom: 3px solid #EC7C03;
+    border-top: 1px solid #fff;
+    border-radius: 0;
+}
+
+#blog-tab .nav-tabs .nav-link.active {
+    border-color: #fff #fff #EC7C03 #fff;
+    color: #EC7C03;
+}
+
+#blog-tab .nav-tabs {
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -7px #222;
+    box-shadow: 0 4px 6px -6px #222;
+}
+
+#blog-tab .nav-link {
+    padding: 13px 11px;
+}
+
+#blog-tab .nav-tabs .nav-item {
+    margin-bottom: 0 !important;
+}
+
+/* Blog Home */
+#blog-tab .card {
+    border-radius: 0;
+    border-top: 3px solid #EC7C03;
+}
+
+#blog-tab .card:hover {
+    box-shadow: 1px 1px 10px #a2a2a2;
+    cursor: pointer;
+}
+
+#blog-tab .blog-image img {
+    width: 320px;
+}
+
+#blog-tab .card-header {
+    padding: 15px 15px;
+    background: #fff;
+    color: #222222;
+    height: 140px;
+    overflow: hidden;
+}
+
+#blog-tab .card-header a {
+    color: #222;
+}
+
+#blog-tab .card-header h6 {
+    font-weight: 600;
+    font-size: 13px;
+    text-align: justify;
+}
+
+#blog-tab .card-header p {
+    font-size: 13px;
+    color: #464646;
+    margin-bottom: 0;
+}
+
+#blog-tab .card-footer {
+    padding: 10px 0 15px;
+    background: #fff;
+}
+
+#blog-tab .card-footer a {
+    font-size: 12px;
+    color: #666;
+}
+
+#blog-tab .card-footer a:hover {
+    color: #273A8D;
+}
+
+#blog-tab .card-footer i {
+    margin-right: 5px;
+}
+
+#blog-tab .entertainment:hover {
+    border-right: 0;
+}
+
+/* popular post */
+.popular-blog .card {
+    border: 3px solid #EC7C03;
+    color: #333;
+}
+
+.popular-blog .card a {
+    color: #333;
+    font-size: 14px;
+}
+
+.popular-blog .card p {
+    border-bottom: 1px dotted #EC7C03;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.popular-blog .card .post-header {
+    padding: 8px 0 2px;
+    border-bottom: 1px solid #EC7C03;
+}
+
+.popular-blog .card-body {
+    padding: 10px 20px;
+}
+
+.popular-seemore {
+    font-weight: 600;
+}
+
+.popular-seemore:hover {
+    color: #EC7C03 !important;
+}
+
+/* Show div */
+.show-div p {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding: 3px 0 10px;
+    border-bottom: 1px solid #ced4da;
+}
+
+.has-search .form-control {
+    padding-left: 33px;
+}
+
+.has-search .form-control {
+    font-size: 14px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    border-color: #EC7C03 !important;
+    box-shadow: 0 0 0 0.2rem #fff !important;
+}
+
+/* --------------------------------
+Basic style
+-------------------------------- */
+.pagination-div nav[role="navigation"] {
+    text-align: center;
+}
+
+.pagination {
+    padding-left: 18px !important;
+}
+
+.cd-pagination {
+    width: 90%;
+    max-width: 768px;
+    margin: 0em auto 3em;
+    text-align: center;
+}
+
+.cd-pagination li {
+    /* hide numbers on small devices */
+    display: none;
+    margin: 0 .2em;
+}
+
+.cd-pagination li.button {
+    /* make sure prev next buttons are visible */
+    display: inline-block;
+}
+
+.cd-pagination a, .cd-pagination span {
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .4em .6em;
+}
+
+.cd-pagination a {
+    border: 1px solid #e6e6e6;
+    border-radius: 0.25em;
+}
+
+.no-touch .cd-pagination a:hover {
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.cd-pagination a:active {
+    /* click effect */
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.cd-pagination a.disabled {
+    /* button disabled */
+    color: rgba(46, 64, 87, 0.4);
+    pointer-events: none;
+}
+
+.cd-pagination a.disabled::before, .cd-pagination a.disabled::after {
+    opacity: .4;
+}
+
+.cd-pagination .button:first-of-type a::before {
+    content: '\00ab  ';
+}
+
+.cd-pagination .button:last-of-type a::after {
+    content: ' \00bb';
+}
+
+.cd-pagination .current {
+    background-color: #EC7C03;
+    border-color: #EC7C03;
+    color: #fff !important;
+    pointer-events: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .cd-pagination li {
+        display: inline-block;
+    }
+}
+
+/* No space - remove distance between list items
+-------------------------------- */
+.cd-pagination.no-space {
+    width: auto;
+    max-width: none;
+    display: inline-block;
+    border-radius: 0.25em;
+    border: 1px solid #ced4da;
+    padding: 0;
+    background: #fff;
+}
+
+.cd-pagination.no-space:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cd-pagination.no-space li {
+    margin: 0;
+    float: left;
+    border-right: 1px solid #ced4da;
+}
+
+.cd-pagination.no-space li:last-of-type {
+    border-right: none;
+}
+
+.cd-pagination.no-space a, .cd-pagination.no-space span {
+    float: left;
+    border-radius: 0;
+    padding: .8em 1em;
+    border: none;
+}
+
+.cd-pagination.no-space li:first-of-type a {
+    border-radius: 0.25em 0 0 0.25em;
+}
+
+.cd-pagination.no-space li:last-of-type a {
+    border-radius: 0 0.25em 0.25em 0;
+}
+
+/* --------------------------------
+move buttons - move prev and next buttons to the sides
+-------------------------------- */
+.cd-pagination.move-buttons:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cd-pagination.move-buttons .button:first-of-type {
+    float: left;
+}
+
+.cd-pagination.move-buttons .button:last-of-type {
+    float: right;
+}
+
+.cd-pagination.no-space.move-buttons {
+    width: 90%;
+    max-width: 768px;
+    display: block;
+    overflow: hidden;
+}
+
+.cd-pagination.no-space.move-buttons li {
+    float: none;
+    border: none;
+}
+
+.cd-pagination.no-space.move-buttons a, .cd-pagination.no-space.move-buttons span {
+    float: none;
+}
+
+/* --------------------------------
+custom icons - customize the small arrow inside the next and prev buttons 
+-------------------------------- */
+.cd-pagination.custom-icons .button a {
+    position: relative;
+    background: white;
+}
+
+.cd-pagination.custom-icons .button:first-of-type a {
+    padding-left: 2.4em;
+}
+
+.cd-pagination.custom-icons .button:last-of-type a {
+    padding-right: 2.4em;
+}
+
+.cd-pagination.custom-icons .button:first-of-type a::before,
+.cd-pagination.custom-icons .button:last-of-type a::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    /* set size for custom icons */
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    /* set margin-top = icon height/2 */
+    margin-top: -8px;
+    background: transparent url("../images/cd-icon-arrow-1.svg") no-repeat center center;
+}
+
+.cd-pagination.custom-icons .button:first-of-type a::before {
+    left: .8em;
+}
+
+.cd-pagination.custom-icons .button:last-of-type a::after {
+    right: .8em;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/* -------------------------------- 
+custom buttons - replace prev and next buttons text with a custom icon 
+-------------------------------- */
+.cd-pagination.custom-buttons a, .cd-pagination.custom-buttons span {
+    vertical-align: middle;
+}
+
+.cd-pagination.custom-buttons .button a {
+    width: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 100%;
+    color: transparent;
+    background-image: url("../img/cd-icon-arrow-2.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.cd-pagination.custom-buttons .button:last-of-type a {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.no-touch .cd-pagination.custom-buttons .button:last-of-type a:active {
+    -webkit-transform: scale(0.9) rotate(180deg);
+    -moz-transform: scale(0.9) rotate(180deg);
+    -ms-transform: scale(0.9) rotate(180deg);
+    -o-transform: scale(0.9) rotate(180deg);
+    transform: scale(0.9) rotate(180deg);
+}
+
+.cd-pagination.no-space.custom-buttons .button:last-of-type a {
+    border-radius: 0.25em 0 0 0.25em;
+}
+
+/* -------------------------------- 
+
+animated buttons - animate the text inside prev and next buttons 
+
+-------------------------------- */
+.cd-pagination.animated-buttons a, .cd-pagination.animated-buttons span {
+    padding: 0 1.4em;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.cd-pagination.animated-buttons .button a {
+    position: relative;
+    padding: 0 2em;
+}
+
+.cd-pagination.animated-buttons .button:first-of-type a::before,
+.cd-pagination.animated-buttons .button:last-of-type a::after {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    right: auto;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.cd-pagination.animated-buttons .button:last-of-type a::after {
+    -webkit-transform: translateX(-50%) rotate(180deg);
+    -moz-transform: translateX(-50%) rotate(180deg);
+    -ms-transform: translateX(-50%) rotate(180deg);
+    -o-transform: translateX(-50%) rotate(180deg);
+    transform: translateX(-50%) rotate(180deg);
+}
+
+.cd-pagination.animated-buttons i {
+    display: block;
+    height: 100%;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.no-touch .cd-pagination.animated-buttons .button a:hover i {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.no-touch .cd-pagination.animated-buttons .button:first-of-type a:hover::before {
+    -webkit-transform: translateX(-50%) translateY(-50px);
+    -moz-transform: translateX(-50%) translateY(-50px);
+    -ms-transform: translateX(-50%) translateY(-50px);
+    -o-transform: translateX(-50%) translateY(-50px);
+    transform: translateX(-50%) translateY(-50px);
+}
+
+.no-touch .cd-pagination.animated-buttons .button:last-of-type a:hover::after {
+    -webkit-transform: translateX(-50%) rotate(180deg) translateY(50px);
+    -moz-transform: translateX(-50%) rotate(180deg) translateY(50px);
+    -ms-transform: translateX(-50%) rotate(180deg) translateY(50px);
+    -o-transform: translateX(-50%) rotate(180deg) translateY(50px);
+    transform: translateX(-50%) rotate(180deg) translateY(50px);
+}
+
+/* -------------------------------- 
+ Blog Page
+-------------------------------- */
+#blog-page {
+    font-family: 'Roboto', sans-serif;
+    background: #E9E9E9;
+}
+
+.breadcrump {
+    font-size: 14px;
+}
+
+#blog-page .post-header h2 {
+    color: #222222;
+}
+
+#blog-page .post-date {
+    color: #404040;
+}
+
+#blog-page .post-date a {
+    color: #1861BF;
+}
+
+#blog-page .share-icons ul {
+    text-decoration: none;
+}
+
+#blog-page .share-icons ul li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#blog-page .share-icons ul li a {
+    display: inline-block;
+    height: 37px;
+    width: 37px;
+    color: #fff;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+#blog-page .share-icons ul li a i {
+    padding-top: 10px;
+    color: #fff;
+}
+
+#blog-page .share-icons ul .fb a {
+    background: #314A7F;
+}
+
+#blog-page .share-icons ul .twitter a {
+    background: #55ACEE;
+}
+
+#blog-page .share-icons ul .linkedin a {
+    background: #0077B5;
+}
+
+#blog-page .share-icons ul li a:hover {
+    background: #7F7F7F;
+}
+
+
+.content-img img {
+    height: auto;
+}
+
+.main-content p {
+    font-size: 17px;
+}
+
+.highlight-part {
+    color: #495057;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.second-highlight {
+    font-weight: bold;
+}
+
+.questions {
+    line-height: 23px;
+}
+
+.questions i {
+    color: #495057;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.related-post .card-body {
+    height: 100px;
+    overflow: hidden;
+}
+
+.related-post .card-body p a {
+    color: #0056b3;
+}
+
+.related-post .card-body p a:hover {
+    color: #314A7F;
+    text-decoration: none;
+}
+
+
+/* Responsive */
+@media (max-width: 1024px) {
+    #blog-tab .blog-image img {
+        width: 250px;
+    }
+
+    #blog-tab .card-header h6 {
+        font-size: 12px;
+    }
+
+    #blog-tab .card-footer .col-md-4 {
+        padding: 0 3px;
+    }
+
+    .popular-blog .card-body {
+        padding: 5px 8px;
+    }
+
+    .popular-blog .card a {
+        font-size: 13px;
+    }
+
+    .popular-blog .card p {
+        padding-bottom: 6px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 991px) {
+    #blog-tab .blog-image img {
+        width: 180px;
+    }
+
+    #blog-tab .card-header h6 {
+        font-size: 11px;
+        text-align: left;
+    }
+
+    #blog-tab .card-header p {
+        font-size: 11px;
+    }
+
+    #blog-tab .card-footer a {
+        font-size: 12px;
+    }
+
+    #blog-tab .card-footer .col-md-4 {
+        padding: 0 10px;
+    }
+
+    .popular-blog .card p {
+        padding-bottom: 2px;
+        margin-bottom: 0px;
+    }
+
+    .popular-blog .card a {
+        font-size: 12px;
+    }
+
+    .popular-blog {
+        padding: 0 !important;
+    }
+
+    .popular-blog h5 {
+        font-size: 17px;
+    }
+
+    .popular-blog .card p {
+        padding-bottom: 3px;
+        margin-bottom: 2px;
+    }
+}
+
+@media (max-width: 767px) {
+    #blog-tab .blog-image img {
+        width: 235px;
+    }
+
+    #blog-tab .card-header h6 {
+        font-size: 11px;
+    }
+
+    #blog-tab .card-header p {
+        font-size: 12px;
+    }
+
+    .cd-pagination.animated-buttons a, .cd-pagination.animated-buttons span {
+        height: 35px;
+    }
+
+    .popular-blog .card-body {
+        padding: 6px 12px;
+    }
+
+    .popular-blog .card a {
+        font-size: 12px;
+    }
+
+    .popular-blog .card p {
+        padding-bottom: 4px;
+        margin-bottom: 4px;
+    }
+
+    .popular-blog {
+        padding: 0 15px !important;
+    }
+}
+
+@media (max-width: 414px) {
+    #blog-tab .nav-link {
+        padding: 6px 8px;
+    }
+
+    #blog-tab .nav-tabs li {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 360px) {
+    #blog-tab .card-footer .col-md-4 {
+        padding: 0 6px;
+    }
+
+    #blog-tab .card-footer a {
+        font-size: 12px;
+    }
+}
+
+/*for blog page*/
+@media screen and (max-width: 767px) {
+    #blog-page .post-header h2 {
+        font-size: 20px;
+    }
+
+    #blog-page .post-date {
+        font-size: 15px;
+    }
+
+    #blog-page .main-content p {
+        font-size: 15px;
+    }
+}

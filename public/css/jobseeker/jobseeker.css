@@ -1,0 +1,288 @@
+body,button {
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+.user-pic {
+	position: relative;
+  text-align: center;
+}
+.user-pic i {
+  position: absolute;
+  top: 72%;
+  left: 60%; 
+}
+.user-pic img{
+	border-radius: 50%;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  width: 180px;
+}
+.user-pic p {
+  padding: 10px;
+  background:#fff;
+
+}
+.dashboard {
+	background: #fff;
+}
+.dashboard-nav ul {
+	margin: 0;
+	padding: 0;
+}
+.dashboard-nav ul li {
+	list-style: none;
+	padding: 20px;
+	border: 1px solid #f2f2f2;
+}
+.dashboard-nav ul li a {
+	text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    color: #808080;
+}
+.dashboard ul li:hover {
+	border-bottom: 3px solid #EC7C03;
+	transition: all 0.3s;
+}
+.dash-profile {
+	background:#f2f2f2;
+}
+.profile-form {
+	padding: 15px;
+	background:#fff;
+}
+
+/*Profile*/
+.basic-info {
+	border: 1px solid #f2f2f2;
+	text-transform: capitalize;
+}
+.basic-info h5 {
+	font-weight: 700;
+	padding: 5px;
+	background:#333;
+	color: #fff;
+}
+/*Resume*/
+.resume-edit {
+	border: 1px solid #f2f2f2;
+	padding: 15px;
+	text-transform: capitalize;
+	background: #fff;
+}
+.resume-edit h5 {
+	border: 1px solid;
+    background: #333;
+    color: #fff;
+    padding: 10px
+}
+
+.save-btn {
+	border-radius: 0px!important;
+}
+.job-header {
+  border-radius: 0px!important;
+}
+@media (max-width: 375px){
+	.resume-edit {
+		font-size: 0.6rem;
+	}
+	#contact {
+		width: 81%;
+	}
+}
+@media (max-width: 512px){
+	.resume-table {
+	    width: 100%;
+	    overflow-x: scroll;
+	}
+}
+/*Profile edit*/
+.input-txt {
+	background: #333!important;
+	color: #fff!important;
+	border: 1px solid #333!important;
+}
+.select-txt {
+	color: #495057!important;
+	font-size: 13px!important;
+	font-weight: 300!important;
+}
+.input-form {
+	overflow:hidden;
+}
+
+/*email edit*/
+.email-edit {
+	padding: 15px;
+	background:#fff;
+}
+/*password edit*/ 
+.update {
+	text-transform: capitalize;
+	padding: 15px;
+	background:#fff;
+}
+.tips {
+	padding: 15px;
+}
+.tips ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/*Graph */
+.chart-area {
+    position: relative;
+    height: 10rem;
+    width: 100%;
+ }
+ @media (min-width: 768px)
+{
+	.chart-area {
+    height: 20rem;
+ }      
+}
+/*dashboard*/
+#wrapper {
+    transition: all .4s ease 0s;
+}
+.sidebar {
+  width: 100%!important;
+  background: linear-gradient(-180deg,#8587962e 10%,#60616f 100%);
+}
+#sidebar-wrapper {
+    margin-left: -150px;
+    left: 70px;
+    width: 150px;
+    background: #222;
+    position: fixed;
+    height: 100%;
+    z-index: 10000;
+    transition: all .4s ease 0s;
+}
+
+.sidebar-nav {
+    display: block;
+    float: left;
+    width: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#page-content-wrapper {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+}
+#wrapper.active {
+    padding-left: 150px;
+}
+#wrapper.active #sidebar-wrapper {
+    left: 150px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+#sidebar_menu li a, .sidebar-nav li a {
+    color: #999;
+    display: block;
+    float: left;
+    text-decoration: none;
+    width: 150px;
+    background: #252525;
+    border-top: 1px solid #373737;
+    border-bottom: 1px solid #1A1A1A;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition: background .5s;
+    -ms-transition: background .5s;
+    transition: background .5s;
+}
+.sidebar_name {
+    padding-top: 25px;
+    color: #fff;
+    opacity: .7;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  color: #999999;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+#main_icon
+{
+    float:right;
+   padding-right: 35px;
+   padding-top:20px;
+}
+.sub_icon
+{
+    float:right;
+   padding-right: 35px;
+   padding-top:10px;
+}
+.content-header {
+  height: 65px;
+  line-height: 65px;
+}
+
+.content-header h1 {
+  margin: 0;
+  margin-left: 20px;
+  line-height: 65px;
+  display: inline-block;
+}
+.profile-drpdown {
+	color: #808080!important;
+}
+@media (max-width:767px) {
+    #wrapper {
+    transition: all .4s ease 0s;
+}
+#sidebar-wrapper {
+    left: 70px;
+}
+#wrapper.active {
+    padding-left: 150px;
+}
+#wrapper.active #sidebar-wrapper {
+    left: 150px;
+    width: 150px;
+    transition: all .4s ease 0s;
+}
+}

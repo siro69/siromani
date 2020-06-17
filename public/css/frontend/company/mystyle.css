@@ -1,0 +1,401 @@
+/* Tabs*/
+#tabs p {
+    line-height: 1.5;
+}
+
+#tabs .nav-tabs {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 1px 17px -6px rgba(32, 33, 36, 1.0);
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link .active {
+    color: #EC7C03;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#tabs .nav-tabs .active {
+    border-bottom: 3px solid #EC7C03;
+}
+
+#tabs .nav-tabs .nav-link:active, #tabs .nav-tabs .nav-link:focus, #tabs .nav-tabs .nav-link:hover {
+    color: #EC7C03;
+    border-bottom: 3px solid #EC7C03;
+}
+
+#tabs .nav-tabs .nav-link:visited {
+    color: #636363;
+}
+
+#tabs .nav-tabs .nav-link {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom-width: 3px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    margin: 0 10px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover, .nav-tabs .nav-link.active {
+    border-color: #fff;
+}
+
+.c-details {
+    list-style-type: none;
+}
+
+.c-details li {
+    display: inline-block;
+}
+
+.clogo {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 1px 17px -6px rgba(32, 33, 36, 1.0);
+}
+
+.ratings i {
+    color: #FFB100;
+}
+
+.ratings .reviews {
+    color: #636363;
+}
+
+.follow-btn {
+    padding: 8px 30px;
+    border-radius: 25px;
+    background: #E38F0C;
+    font-weight: 500;
+}
+
+.follow-btn i {
+    padding-left: 5px;
+}
+
+.follow .follow-btn:hover, .follow .follow-btn:focus {
+    background: #00BB27;
+    text-decoration: none;
+}
+
+/* Contact Tab */
+.contact i {
+    color: #ADB5BD;
+    font-size: 15px;
+}
+
+.contact p {
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.contact-box {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+}
+
+.contact-box li {
+    list-style-type: none;
+    line-height: 1.7;
+}
+
+.contact-box li span {
+    font-weight: 500;
+}
+
+.pdetails {
+    font-size: 14px;
+}
+
+/*JObs */
+
+.seperator {
+    height: 3px;
+    margin: 15px;
+    background-image: radial-gradient(#CCC, #FFF), radial-gradient(#CCC, #FFF);
+    background-position: 0, 100%, 0, 100%;
+}
+
+.total small {
+    color: #636363;
+}
+
+.total-job ul li {
+    list-style-type: none;
+}
+
+.card-footer li {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.card-footer li:last-child, .job-details li:last-child {
+    margin-right: 0;
+}
+
+.card-footer {
+    margin-bottom: 0;
+}
+
+.total-job .card {
+    border: 1px solid #DDD;
+}
+
+.total-job .card-header {
+    background-color: #CECECE;
+    padding: 9px 12px;
+    text-transform: uppercase;
+}
+
+.total-job .card-header a {
+    color: #2F3A40;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card-header a:hover {
+    text-decoration: none;
+}
+
+.job-details {
+    padding: 0px;
+}
+
+.job-details li {
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.job-details li:nth-child(even) {
+    background: #EAEAE9;
+}
+
+.job-details li i {
+    padding-right: 6px;
+    font-size: 15px;
+    color: #A2A2A2;
+}
+
+.card-footer i {
+    color: #A2A2A2;
+}
+
+.readmore {
+    font-size: 14px;
+}
+
+
+.last-footer {
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    padding: .75rem 1.05rem;
+}
+
+.last-footer li {
+    margin-right: 58px;
+    display: inline-block;
+}
+
+.last-footer i {
+    color: #fff;
+    padding-right: 5px;
+}
+
+.last-footer a {
+    padding: 4px 14px;
+    background: #E38F0C;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.last-footer a:hover {
+    text-decoration: none;
+}
+
+.job-details span {
+    font-weight: 500;
+}
+
+.live {
+    color: green
+}
+
+/* side jobs */
+.side-job .card-footer li {
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.side-job .last-footer a {
+    padding: 3px 8px;
+    font-size: 14px;
+}
+
+.side-job .last-footer li {
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.side-job .card-footer {
+    padding: .25rem 1.05rem;
+}
+
+.side-job .card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.side-job .card ul {
+    margin: 0;
+    padding: 5px 20px;
+}
+
+.side-job .card .last-footer {
+    padding: 8px 10px 12px;
+}
+
+.job-title {
+    font-weight: 500;
+    background: #EAEAE9;
+}
+
+.last-footer a:hover {
+    opacity: 0.9;
+    color: #fff;
+}
+
+
+@media (max-width: 1024px) {
+    .last-footer li {
+        margin-right: 27px;
+    }
+
+    .side-job .last-footer li {
+        margin-right: 0px;
+    }
+
+    .side-job .card-footer li {
+        margin-right: 18px;
+    }
+
+    .follow-btn {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .last-footer a {
+        font-size: 13px;
+    }
+
+    .last-footer li {
+        margin-right: 15px;
+    }
+
+    .contact-box li {
+        font-size: 14px;
+    }
+
+    .side-job .last-footer li {
+        margin-right: 10px;
+    }
+
+    .about-head p {
+        font-size: 14px;
+    }
+
+    .cname, .follow, .logo-div {
+        text-align: center;
+    }
+
+    .clogo {
+        height: 95px;
+    }
+}
+
+@media (max-width: 414px) {
+    .last-footer li {
+        margin-right: 2px;
+    }
+
+    .last-footer a {
+        padding: 4px 9px;
+        font-size: 10px;
+    }
+
+    .job-details li {
+        padding: 7px 10px;
+        font-size: 13px;
+    }
+
+    .card-footer li {
+        margin-right: 25px;
+        font-size: 13px;
+    }
+
+    .last-footer {
+        padding: 0.50rem 1rem;
+    }
+}
+
+@media (max-width: 360px) {
+    #tabs .nav-tabs .nav-link {
+        font-size: 13px;
+    }
+
+    .total-job .card-header a {
+        font-size: 13px;
+    }
+
+    .clogo {
+        height: 70px;
+    }
+
+    .card-footer li {
+        margin-right: 10px;
+        font-size: 13px;
+    }
+
+    .card-footer, .last-footer {
+        padding: 0.45rem 0.65rem;
+    }
+
+    .last-footer a {
+        padding: 4px 6px;
+        font-size: 9px;
+    }
+
+    .total h5, .about-head h5 {
+        font-size: 17px;
+    }
+
+    .about-head p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .side-job .card-footer li {
+        margin-right: 15px;
+    }
+
+    .side-job .last-footer li {
+        margin-right: 0px;
+    }
+
+    .cname h4 {
+        font-size: 22px;
+    }
+
+    .follow-btn {
+        padding: 6px 20px;
+    }
+}

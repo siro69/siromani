@@ -1,0 +1,111 @@
+.filter-top {
+  display: none;
+}
+.search-result {
+  background: #f2f2f2;
+}
+.filter-title {
+	background: #808080;
+	padding: 10px;
+	color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.filter-title h5 {
+  font-size: 1rem;
+}
+.refine-btn {
+    background:#fd7e14!important;
+    color: #fff;
+    cursor: pointer;
+}
+.refine-btn :hover {
+  background:#fd7e14;
+  color: #fff;
+}
+.filter1 {
+  text-transform: capitalize;
+  background: transparent!important;
+  /* opacity: 0.4; */
+  border: 1px solid #f2f2f2!important;
+  color: #f2f2f2;
+}
+.filter label {
+  color: #808080;
+}
+.form-check {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.filter-head h5 {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.filter-head a i {
+  float: right;
+}
+.frs-wrp:hover{
+	border-bottom: 3px solid #EC7C03;
+}
+.filter-overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.filter-overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.filter-overlay a:hover, .filter-overlay a:focus {
+  color: #f1f1f1;
+}
+
+.filter-overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .filter-overlay a {font-size: 20px}
+  .filter-overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+@media only screen and (max-width: 512px) {
+  .refine-btn {
+    display: block!important;
+  }
+  .filter-top {
+    display: block;
+  }
+  .filter-top1 {
+    display: none;
+  }
+}
+

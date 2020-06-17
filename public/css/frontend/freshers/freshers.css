@@ -1,0 +1,354 @@
+#freshers {
+    font-size: 14px;
+    line-height: 21px;
+    background: #F2F2F2;
+}
+
+#freshers .search-slt {
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(40px + 2px) !important;
+    border-radius: 0 !important;
+    background-clip: unset !important;
+    padding: 7px 10px 7px 47px !important;
+}
+
+#freshers .wrn-btn {
+    width: 100%;
+    font-weight: 500;
+    text-transform: capitalize;
+    height: calc(40px + 2px) !important;
+    border-radius: 0;
+    background: #EC7C03;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+#freshers .fw-500 {
+    font-weight: 500;
+}
+
+/* search icon */
+::placeholder {
+    font-size: 14px;
+}
+
+#freshers .search-bar .form-control {
+    border-right: 0 !important;
+}
+
+#freshers .search-bar .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 -0.8rem rgba(0, 123, 255, .25);
+}
+
+#freshers .search-bar .btn:focus {
+    box-shadow: 0 0 0 -0.8rem rgba(0, 123, 255, .25);
+}
+
+#freshers .search-bar i {
+    position: absolute;
+    color: #ADB5BD;
+    top: 36%;
+    left: 6%;
+    font-size: 15px;
+}
+
+/* breadcrumbs */
+.breadcrump .current-link {
+    color: #F36F21;
+}
+
+#freshers .read-more {
+    color: #000;
+    font-weight: 700;
+}
+
+.total-jobs .j-num {
+    color: #F36F21;
+    font-weight: 500;
+}
+
+.select-opt {
+    border: 1px solid #ced4da;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.frs-wrp .card-header {
+    color: #2F3A40;
+    background-color: #CECECE;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+
+#can-details i {
+    color: #83878D;
+    padding-left: 15px;
+}
+
+#can-details tr {
+    border-bottom: 1px solid #e3e6f0;
+}
+
+#can-details tr td {
+    padding: 3px;
+    color: #666;
+}
+
+#can-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.font-15 {
+    font-size: 15px;
+    padding-left: 10px !important;
+    width: 100%;
+}
+
+.font-black {
+    color: #333 !important;
+}
+
+#freshers .frs-wrp {
+    border: 1px solid #ddd;
+    border-bottom: 3px solid #F7F7F7;
+    transition: 0.4s;
+}
+
+#freshers .frs-wrp:hover {
+    border-bottom: 3px solid #EC7C03;
+}
+
+#freshers .frs-wrp .card-body {
+    padding: 4px 0px 0;
+}
+
+#freshers .frs-wrp .card-footer li {
+    font-size: 13px;
+}
+
+#freshers .frs-wrp .view-resume a {
+    color: #333;
+    border-radius: 3px;
+    background: #CECECE;
+    padding: 4px 7px;
+}
+
+#freshers .frs-wrp .view-resume a:hover, #freshers .frs-wrp .view-resume a:focus {
+    text-decoration: none;
+    background: #BBBBBB;
+    color: #fff;
+}
+
+/*right part*/
+/* training slider div*/
+#freshers .carousel-indicators {
+    bottom: 13px;
+}
+
+#freshers .seperator {
+    height: 3px;
+    margin: 10px 0 15px;
+    background-image: radial-gradient(#CCC, #FFF), radial-gradient(#CCC, #FFF);
+    background-position: 0, 100%, 0, 100%;
+}
+
+#freshers .carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 13px !important;
+    top: 16px;
+    height: 13px !important;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+}
+
+#freshers .carousel-indicators .active {
+    border: 3px solid #EC7C03 !important;
+}
+
+/* freshers */
+.jobalert-div {
+    background: #0048AA
+}
+
+.jobalert-text h6 {
+    display: inline-block;
+}
+
+/* career tips */
+.career-link a, .career-more a {
+    font-size: 13px;
+    color: #333;
+    font-weight: 500;
+}
+
+.career-more a {
+    color: #555;
+}
+
+.right-part h6 > a {
+    color: #212529;
+}
+
+/* pagination */
+#freshers .pagination {
+    padding: 5px 7px;
+    border: 1px solid #d1d3e2;
+}
+
+#freshers .pagination li {
+    border-right: 1px solid #d1d3e2;
+}
+
+#freshers .pagination li:last-child {
+    border-right: 0;
+}
+
+#freshers .pagination li a:hover {
+    text-decoration: none;
+}
+
+#freshers .pagination li a {
+    padding: 10px !important;
+}
+
+.rgr-btn {
+    background: #EC7C03;
+    color: white;
+    padding: 8px 18px;
+    font-size: 15px;
+    box-shadow: 0px 2px 5px 0px #666;
+    transition: 0.2;
+}
+
+.rgr-btn:hover, .rgr-btn:focus, .rgr-btn:active, .wrn-btn:hover, .wrn-btn:focus {
+    color: #fff;
+    background: #FFA900;
+    text-decoration: none;
+}
+
+@media (max-width: 919px) {
+    .fb-page {
+        display: none;
+    }
+
+    #freshers .search-bar i {
+        left: 10%;
+    }
+
+    .frs-wrp .card-footer li {
+        font-size: 11px;
+    }
+
+    .frs-wrp .card-footer li {
+        padding: 0 25px !important;
+    }
+
+    #freshers h6 {
+        font-size: 14px;
+    }
+
+    #freshers .career-link a, #freshers .career-more a {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 767px) {
+    .jobs-div {
+        font-size: 13px;
+    }
+
+    .select-opt {
+        padding: 3px;
+    }
+
+    .frs-wrp .card-body {
+        padding: 0px 0px;
+    }
+
+    #can-details i {
+        padding-left: 8px;
+    }
+
+    .frs-wrp {
+        padding: 0 !important;
+    }
+
+    .frs-wrp .view-resume a {
+        font-size: 13px;
+    }
+
+    .font-15 {
+        font-size: 13px;
+        padding-left: 5px !important;
+    }
+
+    .f-dtls {
+        margin-bottom: 5px;
+    }
+
+    #freshers .pagination li a {
+        padding: 5px !important;
+    }
+
+    #freshers {
+        font-size: 12px;
+        background: #fff;
+    }
+
+    #freshers .frs-wrp .card-header {
+        background-color: #DDDDDD;
+    }
+
+    #freshers .frs-wrp .card-footer li, #freshers .frs-wrp .card-footer li a {
+        font-size: 11px;
+    }
+
+    .frs-wrp .card-footer li {
+        padding: 0 12px !important;
+    }
+
+    #freshers .frs-wrp .view-resume a {
+        padding: 5px 7px;
+    }
+
+    #freshers h6 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 411px) {
+    #freshers h4 {
+        font-size: 18px;
+    }
+
+    .frs-wrp .card-footer li {
+        padding: 0 15px !important;
+    }
+}
+
+@media (max-width: 365px) {
+    .frs-wrp .card-footer li {
+        padding: 0 12px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .frs-wrp .card-footer li {
+        padding: 0px 5px !important;
+    }
+}

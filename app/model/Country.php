@@ -1,0 +1,13 @@
+<?php
+
+namespace App\model;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Country extends Model
+{
+    protected $table = 'tbl_country';
+    protected $guarded = [];
+
+    public $timestamps = false;
+}

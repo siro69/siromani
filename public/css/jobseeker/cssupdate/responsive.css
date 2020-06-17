@@ -1,0 +1,15 @@
+/* responsive media query */
+
+@media screen and (max-width:800px) {
+      
+    .form .inner-form{
+        padding: 20px!important;
+    }
+    .form .inner-form label{
+        min-width: 110px;
+    }
+    .form .inner-form .row{
+        padding: 10px 0!important;
+    }
+   
+}

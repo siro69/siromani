@@ -1,0 +1,99 @@
+.main-con{
+    padding: 0 180px;
+}
+@media only screen and (max-width: 768px){
+    .main-con{
+        padding: 0 15px!important;
+    }
+}
+@media only screen and (max-width: 320px){
+    .card-body{
+        padding:1rem!important;
+    }
+}
+.right-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.post-header{
+    font-size:1.11rem;
+    font-weight:600;
+}
+.post-header img{
+    padding-bottom:3px;
+}
+.one-step a{
+    color:rgb(44, 42, 42);
+    text-decoration: none;
+    font-size:0.8125rem;
+    font-weight:500;
+    border:1px solid lightgrey;
+    padding:8px 15px;
+    border-radius: 6px;
+}
+.one-step a:hover{
+    border:2px solid #085ff7;
+    color:#085ff7;
+}
+.postjob-header span{
+    font-size:1rem;
+    font-weight:bold;
+}
+.postjob-header i{
+    padding-right:5px;
+}
+.text-header{
+    font-size: 0.9825rem;
+    font-weight:500;
+}
+.upload-btn input{
+    position: relative!important;
+    opacity: 1!important;
+    height: auto!important;
+    width: auto!important;
+    font-size:0.8125rem;
+    font-weight:500;
+    background-color: #fff;
+    border:1px solid #085ff7;
+    border-radius: 25px;
+    padding: 5px 18px;
+    color:#085ff7;
+}
+.upload-btn input:hover{
+    border:2px solid #085ff7;
+}
+.upload-btn input:focus{
+    outline:none;
+}
+.upload-btn span{
+    font-size:0.7825rem;
+    font-weight: 400;
+}
+.upload-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choose-content{
+    font-size:0.7725rem;
+    font-weight: 400;
+}
+.continue-btn a{
+    border: 2px solid #085ff7;
+    padding: 7px 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 25px;
+    text-decoration: none;
+    color:#085ff7;
+}
+.continue-btn a:hover{
+    background-color: #085ff7;
+    color:#fff;
+}
+.continue-btn{
+    display: flex;
+    justify-content: center;
+}

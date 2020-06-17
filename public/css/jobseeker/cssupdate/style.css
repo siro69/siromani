@@ -1,0 +1,256 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,500&display=swap');
+
+
+
+.border{
+    border:1px solid rgba(0,0,0,.125)!important;
+}
+.form-control:focus {
+    border-radius: 0!important;
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(0,123,255,.25);
+}
+.table{
+    color: #333!important;
+}
+.jobseekerdashboard{
+    font-family: 'Roboto',sans-serif;
+}
+.main-navbar .nav-link{
+    font-family: 'Roboto',sans-serif;
+    color:#555
+}
+.tiny{
+    font-size: 12px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+}
+.main{
+    background: #f5f6f7;
+    border-bottom: 3px solid #EC7C03
+}
+.text-main {
+    color:#EC7C03
+}
+.bg-main{
+    background: #EC7C03;
+}
+.heading{
+
+    font-size:20px;
+}
+
+.tiny-text{
+    font-weight: 500;
+    font-size:12px;
+}
+.container{
+    max-width: 1175px;
+}
+.p-desc .designation,.main-body .designation{
+    font-size: 15px;
+    font-family: 'Muli',sans-serif;
+}
+p{  
+    color: #666666;
+    margin-bottom:0px;
+    font-size:0.72rem;
+}
+.detail p{
+    font-size: 13px;
+    color: #555;
+}
+.right-desc p{
+    font-family: 'Muli',sans-serif;
+    font-size:15px;
+    color:#666666;
+    font-weight: 400;
+}
+.main-body .summary{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    font-family: 'Muli';
+}
+.main-body{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+/* jobseeker dashboard */
+
+.skill-inner {
+    line-height: 3
+}
+
+.tab-content {
+    background: #fff
+}
+
+.delete-applied {
+    right: 0
+}
+
+table tr td:nth-child(2) {
+    font-size: 13px;
+    /* text-align: right; */
+}
+.recommend tr td:nth-child(2) {
+    
+    text-align: left!important;
+}
+
+.table td,.table th{
+    border-top:none;
+}
+
+.btn{
+    font-size: 13px;
+}
+
+table td {
+    padding: 0;
+    padding: 10px 2px !important
+}
+
+.rating {
+    color: #ec7c03
+}
+
+.bg-kumari {
+    background: #ec7c03 !important
+}
+
+.text-kumari {
+    color: #ec7c03
+}
+
+.info {
+    font-size: 13px
+}
+
+.warning {
+    right: 7px;
+    top: 0
+}
+table td{
+    font-size: 0.72rem;
+    color: #00070f;
+    vertical-align: middle!important
+}
+
+body {
+    background: #f8f9fa !important
+}
+.page-item.active .page-link {
+z-index: 1;
+color: #fff;
+background-color: #ccc;
+border-color: #ccc;
+}
+.recommend tr td:nth-child(1){
+    padding-left: 18px!important;
+    width: 1px;
+    padding-right:6px!important
+}
+.page-link{
+    font-size: 10px;
+
+}
+
+@media screen and (max-width:800px) {
+    .side-bar {
+        padding-right: 0 !important
+    }
+}
+
+.career-obj{
+    line-height: 1.2;
+    font-family: 'Roboto',sans-serif;
+    font-size: 12px;
+}
+.profile-add{
+    font-size: 13px;
+}
+
+h6{
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: #555!important;
+}
+.justify-btn{
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+/* preview-profile css starts*/
+.edit-pro{
+    font-weight:500;
+    font-size:0.782rem;
+}
+.pre-pro{
+    font-size: 0.68rem;
+    font-weight:500;
+    color:#fff;
+    background-color:#ffc107;
+    border:1px solid #ffc107!important;
+}
+.pre-pro:hover{
+    background-color:#F28705;
+    color:#fff;
+}
+/* preview-profile css ends */
+
+/* profile-completeness css starts */
+.complete{
+    font-size:0.82rem;
+}
+.comp-pre{
+    font-size:0.68rem;
+    font-weight:500;
+    color:#002a5b;
+    background-color:#fff;
+    border:1px solid #002a5b!important;
+}
+.comp-pre:hover{
+    color:#fff;
+    background-color:#002a5b;
+}
+
+/* profile-completeness css ends */
+/* experience css */
+.edit-button{
+    color:#002A5B;
+    font-weight:500;
+    border-right:2px solid #002a5b;
+    border-radius:0;
+    padding:2px 5px;
+    font-size:0.72rem;
+}
+.edit-button:hover{
+    text-decoration: underline;
+    color:#002a5b;
+}
+.des-para{
+    font-size: 0.7283rem!important;
+    font-weight:400;
+}
+
+/* experience css ends */
+
+/* reference css */
+.table-title{
+    font-weight:500;
+}
+
+/* reference css ends */
+

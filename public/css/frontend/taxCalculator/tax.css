@@ -1,0 +1,96 @@
+#tax-calculator {font-family: 'Roboto', sans-serif;}
+.total{border-top:1px solid #b2acab;}
+.info-tooltip{color:#B2ACAB; margin-left: 6px; font-size: 15px;}
+form{
+	border:1px solid #fff;  
+	padding: 25px 20px 10px; 
+	box-shadow:0 1px 24px -14px rgba(32,33,36,1.0);
+}
+.form-control:focus {box-shadow: 0 0 0 0rem rgba(0,123,255,.25)!important;}
+.row-padding{box-shadow:0 4px 6px -7px #222; padding:30px 20px;}
+.padding-only {padding:30px 20px;}
+.modal{padding-right: 0!important;}
+.modal-lg{max-width: 600px!important;}
+.modal-footer .btn{font-size: 14px;}
+.modal-footer i{margin-right: 5px;}
+.table:hover {border: 1px solid #dee2e6; box-shadow:0 3px 22px -13px rgba(32,33,36,1.0);}
+.table{ border: 1px solid #dee2e6; box-shadow:none; font-size: 14px;}
+.table th { padding: .65rem!important; }
+.table td { padding: 5px 20px!important; }
+.text-bold{font-weight: 500;}
+button:focus{outline: 0!important;  outline: 0px auto -webkit-focus-ring-color!important;}
+.modal-footer{justify-content: space-between!important;}
+.modal-footer p{font-size: 15px;}
+.modal-footer span{color:red;}
+
+/* Tax Rate */
+#newTaxrate .modal-lg{max-width: 800px!important;}
+#newTaxrate table, td, th {border:1px solid #dee2e6;  }
+#newTaxrate .table td { padding: 7px 15px!important;}
+button{background-color:#EC7C03; color:#fff;}
+#newTaxrate .modal-footer { justify-content: flex-end!important;}
+.btn:hover {opacity: 0.8;}
+.btn:focus { box-shadow: 0 0 0 0.0rem rgba(0,123,255,.25)!important; }
+
+/*Faq Section*/
+
+.bs-example{  margin: 20px; }
+.accordion .fa{  margin-right: 0.5rem; }
+
+.panel-heading {
+ 	padding: 0;
+	border:0;
+}
+.panel-title{margin-bottom: 0;}
+.panel-title>a, .panel-title>a:active{
+	display:block;
+	padding:12px 15px;
+  	color:#555;
+  	font-size:15px;
+	text-transform:uppercase;
+	letter-spacing: 0px;
+	word-spacing:1px;
+	text-decoration:none;
+}
+.panel-heading a:hover{text-decoration: none;}
+.panel-heading  a:before {
+   font-family: 'Font Awesome 5 Free';
+   content: "\f078";
+   float: right;
+   transition: all 0.5s;
+     	font-weight:bold;
+}
+.panel-heading.active a:before {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+} 
+.panel-body {padding: 10px 20px 15px; text-align: justify; font-size: 15px; color:#495057; border-top: 1px solid #ced4da;}
+.panel:hover{box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); border-bottom:1px solid transparent;}
+.panel{border:1px solid #ced4da; margin-bottom: 10px;}
+
+@media (max-width: 967px) {.emi-formula{width: 185px;}}
+@media (max-width: 767px) {
+.reset ,.calculate ,.taxrate{margin-bottom: 10px;}
+.panel-body { padding: 8px 15px 5px; font-size: 13px;}
+}
+@media (max-width: 414px) {
+#tax-calculator h2{font-size: 20px;}
+.panel-title>a, .panel-title>a:active { font-size: 12px; padding: 11px 7px;}
+}
+
+
+/* Emi Calculator */
+.emi-header {font-weight: 700; color:#24519C;}
+#emi-calculator form{border:1px solid #ddd; padding: 25px 20px 30px;}
+#emi-calculator .form-control{background:#F4EDED!important; border: 0px solid #ced4da;}
+#emi-calculator label{ color: #333; font-weight: 500;}
+#emi-calculator .emi-calculate{
+	margin-top:5px; border-radius: 24px; transition:0.3s; font-size: 15px;
+    padding: 7px 20px;background-color:#24519C;}
+#emi-calculator .emi-calculate:hover{background-color:#EC7C03; opacity:1;}
+.final-result span{display: block; text-align: right;}
+#emi-calculator .result-title{color:#666;}
+#emi-calculator .result-amount{font-size: 24px; font-weight: 700;}
+#emi-calculator .faq-section{box-shadow:0 1px 24px -14px rgba(32,33,36,1.0); padding: 30px 20px;}
+#emi-calculator .faq-section .panel-title>a {text-transform: none;}

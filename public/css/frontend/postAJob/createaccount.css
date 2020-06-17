@@ -1,0 +1,78 @@
+.navbar{display: none;}
+.white-bg{background: #fff;}
+hr { border-top: 1px solid rgba(0,0,0,.1); }
+
+.register .nav-link.active{border:0; color:#ec7c03;}
+.register .nav-link:hover{border: 0;}
+ .register .nav-tabs .nav-link { border: 0px solid transparent; border-top-left-radius: 0; border-top-right-radius: 0; } 
+ .register .nav-tabs{  border: 0px; border-bottom: 0px solid #dee2e6;}
+.register .nav-tabs .btn{border-color: #ec7c03; border-width: 2px; font-size: 18px; font-weight: 500; background:#ec7c03; color:#fff;}
+.register .nav-tabs .btn:hover{border-width: 2px; }
+
+.register-form {background: #fff;}
+.form-group{margin-bottom: 13px;}
+.form-control{padding: 10px; border-radius: 25px;}
+select.form-control:not([size]):not([multiple]) {height: calc(2.25rem + 5px); padding-left: 45px; color:#495057;} 
+
+
+
+/* For Browse Section */
+.custom-file-label::after  {
+   padding: 5px 25px;
+    font-size: 17px;
+    color: #111;
+    }
+
+.btnRegister {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background:#ec7c03;
+    color: #fff;
+    font-size:16px;
+    cursor: pointer;
+    padding: 6px 50px;
+  }
+.btnRegister:hover{opacity:0.8;}
+
+.form-check-label{font-size: 15px; color:#000;}
+
+
+/* For CheckBox*/
+
+.terms-text{font-size: 15px; font-weight: 500;}
+
+
+
+/* ---------------------Password Reset ------------------------ */
+.password-reset { border-radius: 60px;}
+.password-reset h5{color:#57585a;}
+.password-reset .form-control { border-radius: 5px;}
+.password-reset input {padding-left: 50px; }
+.reset-link .btn{background-color: #ec7c03;}
+
+
+.container {
+  display: block;
+  position: relative;
+
+   padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.remember{ margin-left: 25px;}
+.terms{margin-left: -82px;}

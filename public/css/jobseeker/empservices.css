@@ -1,0 +1,129 @@
+
+.emp-service-banner {
+	background: url(../images/banner1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 400px;
+	position: relative;
+}
+.overlay {
+	height: 100%;
+}
+.banner-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.service-heads {
+	color: #808080;
+	padding: 3rem;
+}
+.service-heads h5 {
+	text-shadow: 0 3px 7px rgba(0,0,0,0.25);
+	color: #333;
+}
+.service-heads span i {
+	color: #fd7e14;
+	margin:20px 0 20px;
+}
+.service-moto p {
+	color: #808080;
+}
+.service-moto {
+	margin-bottom: 15px;
+}
+.service-moto h5 {
+	margin:20px 0 20px;
+	color: #333;
+}
+.emp-package {
+	width: 75%;
+}
+.bg-gradient {
+background: #C9D6FF;
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF); 
+background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+} 
+.princing-item ul li {
+  margin-bottom:1.4rem;
+}
+.pricing-divider {
+border-radius: 20px;
+background: #C64545;
+padding: 1em 0 4em;
+position: relative;
+}
+.pricing-divider  h3 {
+text-transform: uppercase;  
+}
+.blue .pricing-divider{
+background: #2D5772; 
+}
+.green .pricing-divider {
+background: #1AA85C; 
+}
+.red b {
+  color:#C64545
+}
+.blue b {
+  color:#2D5772
+}
+.green b {
+  color:#1AA85C
+}
+.pricing-divider-img {
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 100%;
+	height: 80px;
+}
+.deco-layer {
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+.btn-custom  {
+  background:#C64545; color:#fff; border-radius:20px
+}
+
+.img-float {
+  width:50px; position:absolute;top:-3.5rem;right:1rem
+}
+
+.princing-item {
+  transition: all 150ms ease-out;
+  margin: 25px 0 25px 0;
+}
+.princing-item:hover {
+  transform: scale(1.05);
+}
+.princing-item:hover .deco-layer--1 {
+  -webkit-transform: translate3d(15px, 0, 0);
+  transform: translate3d(15px, 0, 0);
+}
+.princing-item:hover .deco-layer--2 {
+  -webkit-transform: translate3d(-15px, 0, 0);
+  transform: translate3d(-15px, 0, 0);
+}
+.price-display {
+	font-size: 3.5rem;
+}
+@media only screen and (max-width: 992px) {
+
+	.emp-package {
+      width: 100%!important;	
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	.service-heading,.btn-start {
+		text-align: center;
+	}
+	
+}
+@media only screen and (max-width: 512px) {
+	.service-heads {
+		padding: 1rem!important;
+	}
+}
